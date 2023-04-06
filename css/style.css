@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.download {
+    width: 100%;
+    min-height: 400px;
+    background-color: #252B42;
+}
+
+.download h1 {
+    padding-top: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.download p.problems {
+    min-width: 470px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.apps {
+    padding: 0 255px 0 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.apps .apple, .apps .google, .apps .amazon, .apps .windows{
+    width: 210px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    background: #252B42;
+    border: 1px solid #BDBDBD;  
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 28px;
+    gap: 25px;
+}
+
+.apps .text {
+    padding-left: 10px;
+}
+
+.apps .text .download_on{
+    width: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.apps .text .platform {
+    margin-top: 5px;
+    min-width: 87px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.apps .google {
+    margin: 0 10px 0 10px;
+}
+
+.apps .amazon {
+    margin-right: 10px;
+}
+
+.pricing {
+    width: 100%;
+    min-height: 766px;
+    background: #252B42;
+    padding: 160px 0 160px 0;
+    box-sizing: border-box;
+}
+
+.pricing_text {
+
+}
+
+.pricing_text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pricing_text p {
+    min-width: 470px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.cost {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.free, .standard {
+    display: flex;
+    align-items: center;
+    width: 509px;
+    height: 243px;
+    padding: 50px;
+    background: #FFFFFF;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.free_text p span, .standard_text p span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+}
+
+.free_text p, .standard_text p {
+    margin-top: 15px;
+    width: 217px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.free_try {
+    gap: 5px;
+}
+.free_try h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.free_try p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.1px;
+
+/* primary-color */
+
+color: #23A6F0;
+}
+
+.free_try p span {
+    min-width: 78px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* disabled-element-color */
+
+color: #8EC2F2;
+}
+
+.free_try .btn {
+    margin-top: 30px;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+
+min-width: 165px;
+height: 52px;
+
+/* primary-color */
+
+background: #23A6F0;
+border-radius: 5px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* identical to box height, or 157% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+padding: 15px 40px;
+}
+
+.white {
+    width: 100%;
+    height: 1223px;
+    background: #FAFAFA;
+}
+
+
+.branches {
+    height: 807px;
+    width: 100%;
+    background-color: #252B42;
+    padding: 0 196px 0 196px;
+    gap: 180px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.branches_text {
+    padding-top: 100px;
+}
+
+.branches_text h2 {
+    min-width: 470px;
+height: 114px;
+color: #FFFFFF;
+
+/* h2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+
+}
+
+.branches_text p {
+    min-width: 456px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+margin-top: 15px;
+}
+
+.branches_image {
+    width: 300px;
+    height: 170px;
+    padding-top: 100px;
+}
+
+.booking {
+    height: 610px;
+    background-color: black;
+}
+
+.booking .register {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 877px;
+height: 610px;
+
+/* light-background-color */
+
+background: #FFFFFF;
+    padding: 0 280px 0 280px;
+    top: -150px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=time], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #23A6F0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #23A6F0;
+}
+
+.booking {
+    display:flex;
+}
+
+.info {
+    top: -150px;
+    padding: 0 280px 0 280px;
+}
+
+.l_footer {
+    background-color: #252B42;
+    display: flex;
+}
